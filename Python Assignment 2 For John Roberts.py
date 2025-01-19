@@ -33,6 +33,7 @@ original_size= 240
 dictionary_size= 25
 compressed_text_size= 148
 
+#All of this is for converting compression decimal to percentage amount and rounding to 2 decimals
 percent_of_compression= 1-((compressed_text_size + dictionary_size) / original_size)
 compression_percent_conversion= percent_of_compression * 100
 rounded_compression_percent= round(compression_percent_conversion,2)
@@ -47,7 +48,6 @@ dictionary_size= 42
 compressed_text_size= 288
 total= compressed_text_size + dictionary_size
 
-#All of this is for converting compression decimal to percentage amount and rounding to 2 decimals
 percent_of_compression= 1-((compressed_text_size + dictionary_size) / original_size)
 compression_percent_conversion= percent_of_compression * 100
 rounded_compression_percent= round(compression_percent_conversion,2)
